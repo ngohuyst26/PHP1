@@ -1,0 +1,81 @@
+.cua-hang {
+    width: 995px;
+    margin: auto;
+    padding: 64px 0px 64px;
+}
+
+.cua-hang-location h1,
+.cua-hang .cua-hang-title h1 {
+    text-align: center !important;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.location-store {
+    width: 100%;
+    padding-bottom: 5px;
+    margin-top: 50px;
+    border-bottom: 1px solid #1a1919;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location-store h3 {
+    padding-top: 8px;
+}
+
+.location-store a {
+    display: flex;
+    width: 90px;
+    padding: 8px 8px 0px 8px;
+    color: black;
+    background-color: #ffd400;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.location-store a i {
+    margin-bottom: 6px;
+}
+
+.location-store a h6 {
+    margin-bottom: 6px;
+    font-size: 12px;
+}
+
+.cua-hang .cua-hang-title .get-location {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.cua-hang-title .get-location button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #ffd400;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.cua-hang-title .get-location button:hover {
+    background-color: #2a2a2a;
+    color: white;
+}
+
+@media screen and (min-width: 740px) and (max-width: 1025px) {
+    .cua-hang {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .cua-hang {
+        width: 95%;
+    }
+}
